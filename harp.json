@@ -1,0 +1,9 @@
+{
+  "globals": {
+      "title": "bonvivant",
+      "site": "bvfood.ca",
+      "description": "bonvivant simplifie le plaisir de manger sainement.",
+      "author": "Jeremie Aubut",
+      "url": "https://bvfood.ca"
+  }
+}
