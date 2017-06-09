@@ -10,7 +10,16 @@ header
                         h1(style=(textcolor))=(headline)
                         h2.font-light(style=(textcolor))=(underline)
                         br
-                        iframe(frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2iNK/3mX" width="730" height="202")
+                        //iframe(frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/2iNK/3mX" width="730" height="202")
+                    .col-12#news-form.center
+                                .col-12.center
+                                    h2#mb-success-message(default-message='Thank you for Subscribing!')
+                                    form(method='post', action='https://mailblast.io/lists/3ff8a672-f029-40f1-a52a-1f489d714b4a/subscribers/create_external', novalidate='novalidate')
+                                        input(type='text', name='subscriber[first_name]', placeholder="prénom")
+                                        input.email-input(type='email', name='subscriber[email]', required='required', aria-required='true', placeholder="email")
+                                        button.rectangle-inscrire(type='submit')
+                                            p Si t'as les critères, laisse moi ton email
+
         
 
 

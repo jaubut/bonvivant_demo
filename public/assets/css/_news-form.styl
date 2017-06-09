@@ -1,0 +1,48 @@
+json('color.json')
+#news-form 
+    textarea, input, button { outline: none; }
+    button.rectangle-inscrire
+        background-image: linear-gradient(-135deg, color-yellow 0%, color-red 100%);
+        width 650px
+        height 55px
+        border-bottom-right-radius 7px
+        border-bottom-left-radius 7px
+        margin 0
+        border none
+        &:hover
+            background-size 400% 400%
+            animation AnimationName 4s ease infinite
+    p  
+        opacity: 0.4;
+        font-family 'Source Sans Pro',sans-serif
+        font-size: 0.7rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 30px;
+    input
+        position relative
+        width 294px
+        height 53px
+        background: #FFFFFF;
+        border none
+        padding-left 30px
+        font-family 'Source Sans Pro',sans-serif
+        font-size: 0.6;
+        color: rgba(29, 29, 38, 0.5)
+        letter-spacing: 0.5px;
+        line-height: 28px;
+    input.email-input
+        border-left 2px solid
+        border-left-color rgba(29, 29, 38, 0.05)
+        border-top none
+        border-left-color rgba(29, 29, 38, 0.05)
+    
+        
+    @media only screen and (max-width: 690px)
+        button.rectangle-inscrire
+            width 325px
+        input.email-input
+            border-left none
+            border-left-color rgba(29, 29, 38, 0.05)
+            border-top 2px solid
+            border-left-color rgba(29, 29, 38, 0.05)
