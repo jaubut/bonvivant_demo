@@ -1,3 +1,5 @@
+json('color.json')
+    
 *
   color #636366
 
@@ -9,6 +11,24 @@ a
   transition all 0.3s ease
   &:hover
       color #F9B42D
+      
+.corner-ribbon
+    font-family 'Pacifico', cursive 
+    width 200px
+    background color-red
+    position fixed
+    top 25px
+    left -50px
+    text-align center
+    line-height 50px
+    letter-spacing 1px
+    color #f0f0f0
+    transform rotate(-45deg)
+    &.top-right
+        top 25px
+        right -50px
+        left auto
+        transform rotate(45deg)
 
 section 
     p
